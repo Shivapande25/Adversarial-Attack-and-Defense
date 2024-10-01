@@ -77,7 +77,7 @@ The implemented neural network architecture consists of two convolutional networ
 ## Adversarial Attacks
 Adversarial attacks are techniques that manipulate input data to deceive machine learning models into making incorrect predictions. By introducing subtle perturbations to the input data, attackers can create adversarial examples that appear similar to legitimate inputs but lead the model to misclassify them. This highlights the vulnerabilities of deep learning models, especially in safety-critical applications like autonomous driving and facial recognition.
 In this implementation, we focus on three common adversarial attack methods:
-##### 1. FGSM (Fast Gradient Sign Method): An efficient one-step attack that computes the gradient of the loss function with respect to the input and adjusts the input in the direction that increases the loss.
+##### 1. FGSM(Fast Gradient Sign Method): An efficient one-step attack that computes the gradient of the loss function with respect to the input and adjusts the input in the direction that increases the loss.
 ##### 2. IFGSM (Iterative FGSM): An iterative variant of FGSM that applies the perturbation multiple times, allowing for finer control over the perturbation's strength.
 ##### 3. MIFGSM (Momentum Iterative FGSM): An extension of IFGSM that incorporates momentum to maintain the direction of the perturbation, enhancing the attack's effectiveness.
 
